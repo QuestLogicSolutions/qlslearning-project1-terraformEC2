@@ -1,0 +1,17 @@
+provider "aws-terraformec2" {
+  region = "us-east-1"
+  access key = "AKIAUX53UJ67XLYVUPG4"
+  secret key = "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"
+
+ } <- 1-6 provider "aws" 
+ resources "aws_instance" "qlslearning-terraform-ec2 {
+    count = 3
+  
+   ami = "AKIAUX53UJ67XLYVUPG4"
+   instance_type = "t2-micro" {
+  vpc_id            = 
+  availability_zone = "us-west-1a"
+
+  tags = {
+    Name = ""
+  
