@@ -12,6 +12,5 @@ provider "aws-terraformec2" {
   vpc_id            = 
   availability_zone = "us-west-1a"
 
-  tags = {
-    Name = ""
+  
   
